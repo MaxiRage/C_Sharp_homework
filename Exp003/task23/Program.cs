@@ -13,5 +13,4 @@ while (cube <= numberA)
 {
     Console.Write(cube * cube * cube + " ");
     cube++;
-
 }
