@@ -26,7 +26,7 @@ b1 = 2, k1 = 5, b2 = 4, k2 = 9-> (-0, 5; -0,5)
 */
 Console.WriteLine("Введите значения b1, k1, b2 и k2 через пробел");
 string tempReadVal = Console.ReadLine();
-string[] strToInteger = tempReadDigits.Split(" ");
+string[] strToInteger = tempReadVal.Split(" ");
 
 double x = ((Double.Parse(strToInteger[2]) - Double.Parse(strToInteger[0])) / (Double.Parse(strToInteger[1]) - Double.Parse(strToInteger[3])));
 double y = Double.Parse(strToInteger[1]) * x + Double.Parse(strToInteger[0]);
